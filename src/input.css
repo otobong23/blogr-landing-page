@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-container{
+    @apply max-w-[1440px] w-10/12 mx-auto
+}
+
+.first-section{
+    background-size: 1000px;
+    background-position: center;
+}
+
+@media (min-width: 768px){
+    .first-section{
+        background-size: 1200px;
+    }
+}
+
+@media (min-width: 1024px){
+    .first-section{
+        background-size: 1500px;
+    }
+}
+
+@media (min-width: 1440px){
+    .first-section{
+        background-size: 1800px;
+    }
+}
